@@ -1,4 +1,5 @@
 import FadeInWrapper from "../components/FadeInWrapper";
+import headshot from "../assets/headshot.jpg";
 
 export default function About() {
   return (
@@ -6,7 +7,7 @@ export default function About() {
       <section>
         <h2>About Me</h2>
         <img
-          src="/src/assets/headshot.jpg"
+          src={headshot}
           alt="Ornella Nshimiyimana Headshot"
           style={{ width: "300px", borderRadius: "90%" }}
         />

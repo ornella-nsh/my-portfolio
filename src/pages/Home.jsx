@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import FadeInWrapper from "../components/FadeInWrapper";
+import homepageImage from "../assets/homepageimage.png";
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
         <h1>Hi there, my name is Ornella!</h1>
         <p>Welcome to my portfolio.</p>
         <img
-          src="src/assets/homepageimage.png"
-          alt="... description ..."
+          src={homepageImage}
+          alt="Homepage Banner Image"
           className={styles.homeImage}
         />
       </section>
